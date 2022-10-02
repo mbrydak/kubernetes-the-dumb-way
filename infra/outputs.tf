@@ -6,8 +6,8 @@ output "service_account" {
   value = google_service_account.github_actions.email
 }
 
-output random_id {
-  value       = random_id.id.hex
+output "random_id" {
+  value = random_id.id.hex
   # sensitive   = true
   description = "description"
   depends_on  = []
