@@ -1,2 +1,2 @@
 # kubernetes-the-dumb-way
-My take on [kubernetes the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) using [Terraform](https://github.com/hashicorp/terraform) for IaC, [Github Actions](https://docs.github.com/en/actions) for CI && [fluxcd](https://github.com/fluxcd/flux) for CD
+My take on [kubernetes the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) using [Terraform](https://github.com/hashicorp/terraform) for IaC, [Github Actions](https://docs.github.com/en/actions) for CI && [fluxcd](https://github.com/fluxcd/flux2) for CD
