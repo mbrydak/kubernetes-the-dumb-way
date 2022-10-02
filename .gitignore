@@ -1,3 +1,5 @@
 # terraform gitignore
 
 **/.terraform
+**/cert/*.pem
+**/cert/*.csr

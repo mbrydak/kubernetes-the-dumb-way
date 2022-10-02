@@ -6,6 +6,7 @@ resource "google_compute_instance" "worker_node" {
   network_interface {
     subnetwork = google_compute_subnetwork.kubernetes.name
     network_ip = "10.240.0.${count.index + 20}"
+    access_config {}
   }
   can_ip_forward = true
   boot_disk {

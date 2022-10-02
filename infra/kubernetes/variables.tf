@@ -1,6 +1,6 @@
 variable "project_id" {
   type        = string
-  default     = "kubernetes-the-dumb-way"
+  default     = "kubernetes-the-dumb-way-terraform"
   description = "project id"
 }
 
@@ -56,10 +56,4 @@ variable "worker_service_account_scope" {
   type        = list(string)
   default     = ["compute-rw", "storage-ro", "service-management", "service-control", "logging-write", "monitoring"]
   description = "controller service account scope"
-}
-
-variable "git_repo" {
-  type        = string
-  default     = "mbrydak/kubernetes-the-dumb-way"
-  description = "git repo"
 }
