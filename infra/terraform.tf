@@ -19,7 +19,7 @@ terraform {
   }
 }
 
-resource random_id id {
+resource "random_id" "id" {
   byte_length = 3
 
 }
