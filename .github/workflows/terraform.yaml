@@ -50,6 +50,7 @@ on:
     paths:
       - 'infra/*.tf'
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
