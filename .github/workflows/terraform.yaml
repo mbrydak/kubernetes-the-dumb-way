@@ -65,7 +65,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: infra
+        working-directory: infra/base
 
     steps:
     # Checkout the repository to the GitHub Actions runner
