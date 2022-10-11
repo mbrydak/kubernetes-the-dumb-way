@@ -48,7 +48,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'infra/*.tf'
+      - 'infra/base/*.tf'
   pull_request:
   workflow_dispatch:
 
