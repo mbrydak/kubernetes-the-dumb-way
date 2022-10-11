@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'infra/*.tf'
+      - 'infra/base/*.tf'
   pull_request:
   workflow_dispatch:
 
@@ -20,7 +20,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: infra
+        working-directory: infra/base
 
     steps:
     - name: Checkout
